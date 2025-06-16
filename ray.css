@@ -46,22 +46,27 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-.open{
+.ray{
 	display: flex;
+}
+.open{
+
 	font-size: 200px;
 	width: 500px;
 	margin: 0 auto;
 	background: rgb(112, 228, 112);
+	
 
 }
 .open:hover{
 	background: #9fff82;
 }
 .close{
+	display:flex;
 	font-size: 200px;
 	width: 500px;
 	margin: 0 auto;
-	background: rgb(240, 78, 78);
+	background: rgb(255, 41, 41);
 
 }
 .close:hover{
@@ -70,4 +75,11 @@ table {
 .bob{
 	width: 100%;
 	aspect-ratio: 16/9;
+
+}
+.happy{
+	font-size: 200px;
+	
+	width: 500px;
+margin: 10px;
 }
