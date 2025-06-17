@@ -5,7 +5,7 @@
 .open{
 
 	font-size: 200px;
-	width: 500px;
+	max-width: 500px;
 	margin: 0 auto;
 	background: rgb(112, 228, 112);
 	
@@ -17,7 +17,7 @@
 .close{
 	display:flex;
 	font-size: 200px;
-	width: 500px;
+	max-width: 500px;
 	margin: 0 auto;
 	background: rgb(255, 41, 41);
 
@@ -33,6 +33,6 @@
 .happy{
 	font-size: 200px;
 	
-	width: 500px;
+	max-width: 500px;
 margin: 10px;
 }
