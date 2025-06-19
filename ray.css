@@ -1,38 +1,59 @@
 
-.ray{
-	display: flex;
+.ray {
+  display: flex;
+  max-width: 99999999px;
 }
-.open{
+.open {
+  font-size: clamp(32px, 10vw, 200px);
+  width: 33%;
+  margin: 0 auto;
+  background: rgb(112, 228, 112);
+  text-align: center;
+}
+.open:hover {
+  background: #9fff82;
+}
+.close {
+  font-size: clamp(32px, 10vw, 200px);
+  width: 33%;
+  margin: 0 auto;
+  background: rgb(255, 41, 41);
+    text-align: center;
+}
+.close:hover {
+  background: #ff8282;
+}
+.bob {
+  width: 50%;
+  aspect-ratio: 16/9;
+  margin: 0 auto;
+}
+.happy {
+  font-size: clamp(32px, 10vw, 200px);
+  width: 33%;
+  margin: 1px;
+    text-align: right;
+}
 
-	font-size: 200px;
-	max-width: 500px;
+.happy2 {
+  font-size: clamp(32px, 10vw, 200px);
+  width: 33%;
+  margin: 1px;
+    text-align: left;
+}
+
+.bob2{
+width: 15%;
+aspect-ratio: 1/2;
+
+}
+.bob3{
+width: 15%;
+aspect-ratio: 1/2;
+
+}
+.picture{
+	max-width: 9999999999999999px;
 	margin: 0 auto;
-	background: rgb(112, 228, 112);
-	
-
-}
-.open:hover{
-	background: #9fff82;
-}
-.close{
-	display:flex;
-	font-size: 200px;
-	max-width: 500px;
-	margin: 0 auto;
-	background: rgb(255, 41, 41);
-
-}
-.close:hover{
-	background: #ff8282;
-}
-.bob{
-	width: 100%;
-	aspect-ratio: 16/9;
-
-}
-.happy{
-	font-size: 200px;
-	
-	max-width: 500px;
-margin: 10px;
+	justify-content:flex-start;
 }
