@@ -84,8 +84,7 @@ aspect-ratio: 1/2;
 
 .happybob{
   position: absolute;
-  top: 0;
-  left: 0;
+ margin: 0 auto;
   width: clamp(120px, 15vw, 200px);
   height: auto;
   animation: sway 1.5s infinite ease-in-out;
