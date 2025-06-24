@@ -13,14 +13,8 @@ $(document).ready(function() {
      $('happy').toggle()
      $('.container').toggle()
        $('.moving-image ').toggle()
-moving-image     
-});
 
-
-
-    $(document).ready(function () {
-
-      $('.moving-image').show();
+             $('.moving-image').show();
 
 
       function moveRight() {
@@ -37,4 +31,12 @@ moving-image
 
       moveRight(); 
     });
+
+
+
+
+
 });
+
+
+
