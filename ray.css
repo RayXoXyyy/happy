@@ -82,9 +82,16 @@ aspect-ratio: 1/2;
   height: auto;
 }
 
-.happybob{
+.happybob1{
+margin: 0 auto;
+
+}
+
+
+.happybob {
   position: absolute;
- margin: 0 auto;
+
+  left: 50%;
   width: clamp(120px, 15vw, 200px);
   height: auto;
   animation: sway 1.5s infinite ease-in-out;
@@ -96,9 +103,9 @@ aspect-ratio: 1/2;
 
 
 @keyframes sway {
-  0%   { transform: rotate(0deg); }
-  25%  { transform: rotate(8deg); }
-  50%  { transform: rotate(0deg); }
-  75%  { transform: rotate(-8deg); }
-  100% { transform: rotate(0deg); }
+  0%   { transform: translateX(-50%) rotate(0deg); }
+  25%  { transform: translateX(-50%) rotate(8deg); }
+  50%  { transform: translateX(-50%) rotate(0deg); }
+  75%  { transform: translateX(-50%) rotate(-8deg); }
+  100% { transform: translateX(-50%) rotate(0deg); }
 }
