@@ -18,7 +18,7 @@ html, body {
   background: #9fff82;
 }
 .close {
-  font-family:"關";
+  
   font-size: clamp(32px, 10vw, 200px);
   width: 33%;
   margin: 0 auto;
